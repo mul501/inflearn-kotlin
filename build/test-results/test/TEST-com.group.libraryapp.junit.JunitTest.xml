@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.group.libraryapp.junit.JunitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-20T13:55:43" hostname="Robb-Lee-Y17CWF43HW" time="0.002">
+  <properties/>
+  <testcase name="test1()" classname="com.group.libraryapp.junit.JunitTest" time="0.001"/>
+  <testcase name="test2()" classname="com.group.libraryapp.junit.JunitTest" time="0.0"/>
+  <system-out><![CDATA[Before all tests
+Before each test
+Test 1
+After each test
+Before each test
+Test 2
+After each test
+After all tests
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
