@@ -125,7 +125,7 @@ class UserServiceTest @Autowired constructor (
         val results = userService.getUserLoanHistories()
 
         //then
-        assertThat(results).hasSize(1)
+        assertThat(results).hasSize(3)
         assertThat(results[0].name).isEqualTo("최태원")
         assertThat(results[0].books).hasSize(3)
         assertThat(results[0].books).extracting("name").containsExactlyInAnyOrder("책1", "책2", "책3")
